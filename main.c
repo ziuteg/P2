@@ -18,15 +18,15 @@
 struct parameter_block {
 	uint16_t	bytes_per_sector;	 /* bytes per sector */
 	uint8_t		sectors_per_cluster; /* sectors per cluster */
-    uint16_t	reserved_sectors;  	 /* number of reserved sectors */
-    uint8_t		fats;       		 /* number of FATs */
-    uint16_t	root_entries;		 /* number of root directory entries */
-    uint16_t	sectors;			 /* total number of sectors */
-    uint8_t		media_descriptor;    /* media descriptor */
-    uint16_t	sectors_per_fat;	 /* number of sectors per FAT */
-    uint16_t	sectors_per_track; 	 /* sectors per track */
-    uint16_t	heads;       		 /* number of heads */
-    uint16_t	hidden_sectors;		 /* number of hidden sectors */
+	uint16_t	reserved_sectors;  	 /* number of reserved sectors */
+	uint8_t		fats;       		 /* number of FATs */
+	uint16_t	root_entries;		 /* number of root directory entries */
+	uint16_t	sectors;			 /* total number of sectors */
+	uint8_t		media_descriptor;    /* media descriptor */
+	uint16_t	sectors_per_fat;	 /* number of sectors per FAT */
+	uint16_t	sectors_per_track; 	 /* sectors per track */
+	uint16_t	heads;       		 /* number of heads */
+	uint16_t	hidden_sectors;		 /* number of hidden sectors */
 };
 
 /*
